@@ -1,0 +1,18 @@
+{
+  "urls": [
+    {
+      "url":"http://127.0.0.1:1111/",
+      "actions": [
+        "screen capture pa11y-ci-report/capture.png"
+      ]
+    }
+      ],
+
+  "defaults": {
+    "reporters": [
+        "pa11y-ci-reporter-html"
+    ],
+    "standard": "WCAG2AA"
+
+  }
+}
